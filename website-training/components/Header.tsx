@@ -7,7 +7,7 @@ function Header(): ReactElement<string>{
     <div className={styles.nav_div}>
       <nav className="navbar">
         <ul className={styles.nav_item}>
-        <Link href={'#home'} ><a>Home</a></Link>
+        <Link href={'/'} ><a>Home</a></Link>
         <Link href={'#skills'} ><a>Skills</a></Link>
         <Link href={'#about'}><a >About</a></Link>
         <Link href={'#contact'}><a >Contact</a></Link>

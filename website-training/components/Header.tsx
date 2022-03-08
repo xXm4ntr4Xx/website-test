@@ -8,7 +8,7 @@ function Header(): ReactElement<string>{
       <nav className="navbar">
         <ul className={styles.nav_item}>
         <Link href={'/'} ><a>Home</a></Link>
-        <Link href={'#skills'} ><a>Skills</a></Link>
+        <Link href={'#project'} ><a>Project</a></Link>
         <Link href={'#about'}><a >About</a></Link>
         <Link href={'#contact'}><a >Contact</a></Link>
         </ul>

@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <div id={'home'}className={styles.home}>
         <Main/>
         </div>
-      <div id={'skills'}className={styles.skills}>
+      <div id={'project'}className={styles.skills}>
         <Skills/>
         </div>
       <div id={'about'}className={styles.about}>

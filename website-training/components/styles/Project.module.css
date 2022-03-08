@@ -9,14 +9,20 @@
 }
 
 .header_one{
- color: aliceblue; 
- text-align: center;
- background-color: black;
+ 
  
 }
+.header_text{
+color: aliceblue;
+}
 
+.header2{
+    color: black;
+}
+.parag{
+    background-color: black;
+}
 .images{
     width: 30%;
     height: 30%;
-    margin-left: 40%;
 }

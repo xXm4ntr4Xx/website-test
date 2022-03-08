@@ -1,0 +1,22 @@
+
+.skill_div{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.image_link{
+    text-align: center;
+    width: 50%;
+}
+
+.header_one{
+ color: aliceblue; 
+ text-align: center;
+ background-color: black;
+ 
+}
+
+.images{
+    width: 30%;
+    height: 30%;
+    margin-left: 40%;
+}

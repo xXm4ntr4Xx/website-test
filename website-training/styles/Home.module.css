@@ -1,6 +1,6 @@
 .container{
   display: grid;
-  grid-template-rows: 0.1fr 8fr 8fr 8fr 8fr;
+  grid-template-rows: 0.1fr 8fr auto ;
   gap: 2%;
 }
 .home{
@@ -15,7 +15,7 @@ background-image: url("https://images.pexels.com/photos/322338/pexels-photo-3223
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
+height: auto;
 }
 
 .about{

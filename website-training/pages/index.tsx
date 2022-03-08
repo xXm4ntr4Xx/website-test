@@ -1,10 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import Skills from '../components/Skills';
+import Contact from '../components/Contact';
+import About from '../components/About';
 
 const Home: NextPage = () => {
   return (
@@ -17,10 +19,10 @@ const Home: NextPage = () => {
         <Skills/>
         </div>
       <div id={'about'}className={styles.about}>
-        <h1>About</h1>
+        <About/>
         </div>
       <div id={'contact'}className={styles.contact}>
-        <h1>Contact</h1>
+        <Contact/>
         </div>
     </div>
   )
